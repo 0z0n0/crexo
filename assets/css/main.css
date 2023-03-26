@@ -379,6 +379,32 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
+
+
+/* Estilos para pantallas pequeñas (menos de 576px) */
+@media (max-width: 575.98px) {
+  .carousel-img {
+    height: 100%; /* ajusta la altura a tu preferencia para pantallas pequeñas */
+  }
+}
+
+/* Estilos para pantallas medianas (entre 576px y 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carousel-img {
+    height: 100%; /* ajusta la altura a tu preferencia para pantallas medianas */
+  }
+}
+
+/* Estilos para pantallas grandes (mayores de 768px) */
+@media (min-width: 768px) {
+  .carousel-img {
+    height: 80vh; /* ajusta la altura a tu preferencia para pantallas grandes */
+  }
+}
+
+/*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
