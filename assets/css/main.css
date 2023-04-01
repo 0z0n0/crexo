@@ -637,6 +637,25 @@ h6 {
     z-index: 9996;
   }
 }
+/*--------------------------------------------------------------
+# Btn Whatsapp
+--------------------------------------------------------------*/
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: green;
+  color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+  z-index: 9999;
+  box-shadow: 2px 2px 3px #999;
+}
+
 
 /*--------------------------------------------------------------
 # About Section
